@@ -146,8 +146,10 @@
       .top .main-menu ul li {
         display: block;
         margin: 0;
-        width: 0; }
-        /* line 201, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+        width: 0;
+        border-length: !important;
+        border-right: none !important; }
+        /* line 203, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
         .top .main-menu ul li ul {
           position: relative;
           width: 100% !important;
@@ -159,28 +161,28 @@
           z-index: 1;
           opacity: 1;
           transition: all 0.2s ease; }
-          /* line 213, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+          /* line 215, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
           .top .main-menu ul li ul.active {
             position: relative;
             max-height: 100vh;
             opacity: 1; }
-            /* line 219, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+            /* line 221, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
             .top .main-menu ul li ul.active li {
               height: auto; }
-          /* line 224, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+          /* line 226, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
           .top .main-menu ul li ul li {
             height: auto;
             overflow: hidden;
             transition: all 0.2s ease; }
-  /* line 234, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+  /* line 237, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
   header.home {
     height: 300px; } }
 
 @media all and (max-width: 425px) {
-  /* line 242, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+  /* line 245, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
   header.home {
     height: 200px; }
-  /* line 246, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+  /* line 249, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
   #coaching_carousel .caption {
     position: relative;
     left: 0%;
@@ -190,10 +192,10 @@
     background: #0a3e71;
     padding: 20px;
     padding-bottom: 70px; }
-  /* line 257, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+  /* line 260, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
   .news .news_items {
     grid-template-columns: auto; }
-  /* line 261, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
+  /* line 264, /Applications/MAMP/htdocs/conecta2/css/responsive.scss */
   header.inner .title {
     display: none; } }
 

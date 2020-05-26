@@ -197,6 +197,8 @@ $grey: #797979;
                 display: block;
                 margin: 0;
                 width: 0;
+                border-length:  !important;
+                border-right: none !important;
                 
                 ul {
                     position: relative;
@@ -230,6 +232,7 @@ $grey: #797979;
             }
         }
     }
+    
     
     header.home {
         height: 300px;
