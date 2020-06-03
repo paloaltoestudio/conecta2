@@ -146,7 +146,7 @@ body {
                 }
                 
                 &:hover {
-                    background: #606060;
+                    background: #195490;
                     
                     ul {
                         display: block;
@@ -191,7 +191,7 @@ body {
                     left: 0;
                     padding: 0;
                     width: auto;
-                    background: #797979;;
+                    background: #195490;;
                     z-index: -1;
                     transition: all 0.2s ease-in-out;
                     
@@ -210,7 +210,7 @@ body {
                             border: none !important;
                             padding: 20px 30px !important;
                             text-align: left;
-                            background: #797979;
+                            background: #195490;
 
                         }
                     }
@@ -233,7 +233,7 @@ body {
                     }
 
                     &:hover {
-                        background: #606060;
+                        background: #195490;
                     }
                 }
             }
@@ -556,12 +556,13 @@ header.inner {
 
 section.inner {
     min-height: 85vh;
-    background: url('../images/tienda.jpg') no-repeat !important;
+    background-image: url('../images/tienda.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     
     &.content {
         padding-top: 50px;
-        background: none;
+        //background: none;
         
         
         iframe {
@@ -719,13 +720,10 @@ footer {
     width: 100%;
     background: url('../images/footer_bg.jpg') no-repeat;
     background-size: cover;
-    display: grid;
-    grid-template-columns: auto auto;
     align-items: center;
     padding: 15px 40px;
 
     p {
-        display: inline-block;
         color: #fff;
         font-weight: lighter;
         font-size: 14px;
