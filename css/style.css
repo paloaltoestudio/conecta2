@@ -573,19 +573,24 @@ section.inner {
     color: #fff;
     text-decoration: none; }
 
-/* line 703, /Applications/MAMP/htdocs/conecta2/css/style.scss */
-.nav-item a {
+/* line 702, /Applications/MAMP/htdocs/conecta2/css/style.scss */
+.nav-link {
   text-transform: uppercase;
   font-size: 14px;
   padding: 15px;
   color: #0a3e71; }
-  /* line 709, /Applications/MAMP/htdocs/conecta2/css/style.scss */
-  .nav-item a.active {
+  /* line 708, /Applications/MAMP/htdocs/conecta2/css/style.scss */
+  .nav-link:hover, .nav-link.active {
     background: url("../images/btn_texture.jpg");
     outline: 1px solid #d2b115;
-    outline-offset: -5px; }
+    outline-offset: -5px;
+    color: #fff; }
 
 /* line 718, /Applications/MAMP/htdocs/conecta2/css/style.scss */
+.tab-content h4 {
+  color: #0a3e71; }
+
+/* line 724, /Applications/MAMP/htdocs/conecta2/css/style.scss */
 footer {
   bottom: 0;
   width: 100%;
@@ -593,13 +598,13 @@ footer {
   background-size: cover;
   align-items: center;
   padding: 15px 40px; }
-  /* line 726, /Applications/MAMP/htdocs/conecta2/css/style.scss */
+  /* line 732, /Applications/MAMP/htdocs/conecta2/css/style.scss */
   footer p {
     color: #fff;
     font-weight: lighter;
     font-size: 14px;
     margin: 0; }
-  /* line 733, /Applications/MAMP/htdocs/conecta2/css/style.scss */
+  /* line 739, /Applications/MAMP/htdocs/conecta2/css/style.scss */
   footer img {
     justify-self: end; }
 
