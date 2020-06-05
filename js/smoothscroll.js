@@ -1,6 +1,6 @@
 //
 // SmoothScroll for websites v1.4.0 (Balazs Galambosi)
-// http://www.smoothscroll.net/
+// https://www.smoothscroll.net/
 //
 // Licensed under the terms of the MIT license.
 //
@@ -103,7 +103,7 @@ function init() {
     /**
      * Please duplicate this radar for a Safari fix! 
      * rdar://22376037
-     * http://openradar.appspot.com/radar?id=4965070979203072
+     * https://openradar.appspot.com/radar?id=4965070979203072
      * 
      * Only applies to Safari now, Chrome fixed it in v45:
      * This fixes a bug where the areas left and right to 
@@ -641,7 +641,7 @@ var getScrollRoot = (function() {
  * Viscous fluid with a pulse for part and decay for the rest.
  * - Applies a fixed force over an interval (a damped acceleration), and
  * - Lets the exponential bleed away the velocity over a longer interval
- * - Michael Herf, http://stereopsis.com/stopping/
+ * - Michael Herf, https://stereopsis.com/stopping/
  */
 function pulse_(x) {
     var val, start, expx;
