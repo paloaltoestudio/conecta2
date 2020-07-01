@@ -98,6 +98,10 @@ $grey: #797979;
     .top .main-menu {
         grid-row: 3/4;
     }
+
+    header.home {
+        height: 300px;
+    }
     
     header.home .img {
         width: 80%;
@@ -235,7 +239,7 @@ $grey: #797979;
     
     
     header.home {
-        height: 300px;
+        height: 200px;
     }
 }
 

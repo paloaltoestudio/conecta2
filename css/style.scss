@@ -281,6 +281,21 @@ header.home {
     }
 }
 
+.intro {
+    margin-top: 40px;
+
+    p {
+        font-weight: lighter;
+        line-height: 1.8em;
+        color: #535353;
+        font-size: 18px;
+
+         strong {
+             color: $blue;
+         }
+    }
+}
+
 .breadcrumb {
     background: none;
     
