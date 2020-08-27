@@ -831,6 +831,114 @@ section.inner.content iframe {
   transition: all 0.2s ease;
 }
 
+.organizacion_detail h2 {
+  color: #0c5bac;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.organizacion_detail .item {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.organizacion_detail .item h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #363636;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.organizacion_detail .item .link_download {
+  display: block;
+  background: url("../images/button_texture.jpg") no-repeat;
+  background-size: cover;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  outline: 1px dotted #fff;
+  outline-offset: -5px;
+}
+
+.directorio .link_directorio {
+  display: block;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.directorio .link_directorio:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-color: #d2b115;
+}
+
+.directorio_detalle .logo {
+  margin-bottom: 70px;
+}
+
+.directorio_detalle .logo img {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  border-bottom: 2px solid #d2b115;
+}
+
+.directorio_detalle .select_city {
+  margin-bottom: 20px;
+}
+
+.directorio_detalle .select_city label {
+  text-transform: uppercase;
+  color: #545454;
+  margin-right: 10px;
+}
+
+.directorio_detalle .select_city select {
+  padding: 10px 20px;
+  color: #545454;
+}
+
+.directorio_detalle .back_link {
+  position: relative;
+  color: #0c5bac;
+  text-transform: uppercase;
+  top: 5px;
+}
+
+.directorio_detalle table {
+  width: 100%;
+}
+
+.directorio_detalle table thead tr {
+  background: #0c5bac;
+  color: #fff;
+}
+
+.directorio_detalle table thead th {
+  padding: 15px 20px;
+}
+
+.directorio_detalle table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.directorio_detalle table tbody tr:nth-child(even) {
+  background: #efefef;
+}
+
+.directorio_detalle table tbody td {
+  padding: 15px 20px;
+}
+
+.directorio_detalle table tbody td, .directorio_detalle table tbody td a {
+  color: #424242;
+}
+
 footer {
   bottom: 0;
   width: 100%;
